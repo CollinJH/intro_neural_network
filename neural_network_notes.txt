@@ -1,0 +1,26 @@
+1. neuron.py is the implementation of a single neuron
+
+2. neron_network.py is the implementation that builds on a single neuron
+it becomes a network of neurons
+
+3. training a neural network
+
+given the following measurements
+
+Name	Weight (lb)	Height (in)	Gender
+Alice	133	          65	        F
+Bob	160	            72	        M
+Charlie	152	        70	        M
+Diana	120	          60	        F
+
+shift data to make it easier, 135 and 66 was arbitarily chose,
+should shift by the mean though
+
+
+Name	Weight (minus 135)	Height (minus 66)	Gender
+Alice	-2	-1	1
+Bob	25	6	0
+Charlie	17	4	0
+Diana	-15	-6	1
+
+
