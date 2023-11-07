@@ -23,4 +23,13 @@ Bob	25	6	0
 Charlie	17	4	0
 Diana	-15	-6	1
 
+here is what our training process will look like
+1. Choose one sample from dataset, this is what makes it 
+stochastic gradient descent, can only operate on one sample at time
 
+2. Calculate the partial derivaties of loss with respect to weights or biases
+[partialL / partialw1, partialL/ partialw2] ... etc
+
+3. use the update equation to update each weight and bias
+
+4. repeat at step 1!
