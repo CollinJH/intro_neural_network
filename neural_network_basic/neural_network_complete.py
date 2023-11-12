@@ -175,7 +175,12 @@ loss_data = network.train(data, all_y_trues)
 
 
 
-network.plot_loss(loss_data)
+
+# Make some predictions
+emily = np.array([-7, -3]) # 128 pounds, 63 inches
+frank = np.array([20, 2])  # 155 pounds, 68 inches
+print("Emily: %.3f" % network.feedforward(emily)) # 0.951 - F
+print("Frank: %.3f" % network.feedforward(frank)) # 0.039 - M
 
 
 
